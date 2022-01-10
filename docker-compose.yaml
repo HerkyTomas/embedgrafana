@@ -1,0 +1,14 @@
+version: '3'
+services:
+  apache:
+    build: ./apache
+    ports:
+      - "80:80"
+    networks:
+      - my-net
+  grafana:
+    build: ./grafana
+    networks:
+      - my-net
+networks:
+  my-net:
