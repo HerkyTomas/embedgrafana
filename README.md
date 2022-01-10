@@ -20,4 +20,5 @@ Build It:
 Run it:
 -
   - docker-compose up
+  - starts a web application at http://localhost:80/index.html
   - login with 'myuser'/'mypassword'
